@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.json text
+*.js text
+*.mjs text
+*.md text
+*.png binary
+*.mcaddon binary

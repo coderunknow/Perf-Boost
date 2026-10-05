@@ -1,0 +1,17 @@
+{
+  "name": "perf-boost",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PerfBoost - a lightweight performance add-on for Minecraft Bedrock Edition (behavior pack + resource pack).",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tools/test.mjs",
+    "validate": "node tools/validate.mjs",
+    "check": "node tools/test.mjs && node tools/build.mjs && node tools/validate.mjs"
+  }
+}
