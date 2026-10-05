@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "PerfBoost v0.1.0 (Behavior)",
+    "description": "Reduces entity lag by trimming excess dropped items, XP orbs and arrows. Fresh drops and named entities are never removed.\nCommands: /scriptevent perfboost:status, perfboost:clean, perfboost:help",
+    "uuid": "f339dd31-c7f6-41af-9ed5-1faffcf4fdfb",
+    "version": [0, 1, 0],
+    "min_engine_version": [1, 21, 90]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "d3058ac4-560a-4301-8a84-e9315d4bcab8",
+      "version": [0, 1, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "4dc4619a-df83-4e7a-9996-b4db73077720",
+      "version": [0, 1, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    }
+  ]
+}
